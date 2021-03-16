@@ -1,8 +1,9 @@
 public class CalculateSalary {
 
-    // TODO: 16.03.2021 Разработайте метод расчета заработной платы
-    //  зарплата = опыт работы * оклад;
-    public static double calcWage(Employees employeeKey, Position positionValue) {
+    // TODO: 16.03.2021 Разработайте метод расчета заработной платы,
+    //  какие параметры передавать в метод решать вам...
+    //  формула расчета: зарплата = опыт работы * оклад;
+    public static double calcWage() {
 
         return 0;
     }
