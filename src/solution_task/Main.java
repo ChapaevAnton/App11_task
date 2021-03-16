@@ -73,7 +73,8 @@ public class Main {
             System.out.println("Количество сотрудников в штатном расписании: " + orderedEmployees.size());
             System.out.println("Количество сотрудников на предприятии: " + employee.size());
             if (orderedEmployees.size() != employee.size())
-                System.err.println("Ошибка!!! Cписки сотрудников не соответствуют!!!");
+                System.err.println("Ошибка!!! Cписок сотрудников не соответствуют штатному расписанию!!!\n " +
+                        "включены не все, кого то придется уволить!!!");
         } else System.err.println("Приступите к решению задачи");
     }
 
